@@ -1,0 +1,99 @@
+<html>
+   <head>
+      <title> Moonchild Discos </title>
+      <style>
+      	body{background-color: #e6ffe6;}
+      </style>
+   <head>
+   <body>
+	<h1> Moonchild Discos </h1>
+	   <p><tt> AUTORA: JÉSSICA REGINA </tt></p>
+           <p> Compre discos de vinil na <br> melhor loja online de Florianópolis! <br> Temos vinis importados, nacionais, <br> clássicos, raros, antigos e lançamentos.</p>
+   <hr>
+   <p>
+     <table border="1">
+ 	 <style type="text/css">
+	  thead{background-color:#ffffcc;}
+	  tfoot{background-color:#f2f2f2;}
+	 </style>
+	 <thead>
+ 	  <tr>
+	     <th> Produto </td> <th> Preço </td> <th> Foto </td>
+ 	  </tr>
+	 </thead>
+ 	<tfoot>
+ 	  <tr>
+ 	     <td> </td> <td> </td> <td> Imagens apenas ilustrativas </td>
+	  </tr>
+ 	</tfoot>
+ 	  <tbody>
+ 		 <tr>
+			 <td> Bon Iver - For Emma, Forever Ago </td>
+			 <td> R$34,99 </td>
+ 			 <td> <a href="https://boniver.org/"><img src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/236672-Product-0-I_1080x.jpg" 
+alt="bon!" /></a> </td>
+ 		 </tr>
+ 		 <tr>
+			 <td> The Lumineers - Cleopatra </td>
+			 <td> R$23,97 </td>
+ 			<td> <a href="https://www.thelumineers.com/home"><img src="https://i5.walmartimages.com/asr/b08318d0-dce1-4543-bb7b-ce6579b58c0c.308c9ebee030fe8664b8569e4bbe3ae5.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" 
+alt="the lum!" width="400" height="400" /></a> </td>
+		 </tr>
+         <tr>
+			 <td> Taylor Swift - Folklore </td>
+			 <td> R$269,90 </td>
+ 			 <td> <a href="https://www.taylorswift.com/"><img src="https://images.tcdn.com.br/img/img_prod/883587/taylor_swift_folklore_1_the_in_the_trees_edition_deluxe_vinyl_683_1_2ae789bf775557645a43622f82658724.jpeg" 
+alt="taylor!" width="400" height="400" /></a> </td>
+ 		 </tr>
+         <tr>
+			 <td> Joji - Nectar </td>
+			 <td> R$36,00 </td>
+ 			 <td> <a href="https://88rising.com/joji"><img src="https://cdn.shopify.com/s/files/1/0261/3805/0623/products/3f5f282b-3bf4-44ac-adbd-ab3ac1b3fa2e_grande.jpg?v=1622678946" 
+alt="joji!" width="400" height="400" /></a> </td>
+ 		 </tr>
+         <tr>
+			 <td> Grimes - Visions </td>
+			 <td> R$49,99 </td>
+ 			 <td> <a href="https://4ad.com/artists/179"><img src="https://cdn.shopify.com/s/files/1/0024/9803/5810/products/296021-Product-0-I_1080x.jpg" 
+alt="grimes!" width="400" height="400" /></a> </td>
+ 		 </tr>
+ 	  </tbody>
+	</table>
+   <p>
+    <hr>
+   <p>
+   	<form action="https://sheltered-lowlands-36886.herokuapp.com/devs1-projeto.php" method="post">
+ 		<label for="nome">Nome do cliente :</label>
+ 		<input type="text" id="nome" name="nome" maxlength="80">
+      <p>
+        <label for="endereco">Endereço:</label>
+ 		<input type="text" id="endereco" name="endereco" maxlength="120">
+      <p>
+        <label for="mensagem">Mensagem:</label>
+      <p>
+        <textarea name="mensagem" rows="5" cols="20">Deixe uma mensagem para nós! </textarea>
+      <p>
+        <form>
+          Produtos selecionados:
+      <br>
+ 		  <input type="checkbox" name="produto[]" value="produto[]"/> Bon Iver - For Emma, Forever Ago
+      <br>
+ 		  <input type="checkbox" name="produto[]" value="produto[]"/> The Lumineers - Cleopatra
+      <br>
+ 	      <input type="checkbox" name="produto[]" value="produto[]"/> Taylor Swift - Folklore
+      <br>
+          <input type="checkbox" name="produto[]" value="produto[]"/> Joji - Nectar
+      <br>    
+          <input type="checkbox" name="produto[]" value="produto[]"/> Grimes - Visions
+        </form>
+      <p>
+      <form>
+		Forma de pagamento:
+ 		<input type="radio" name="pagamento" value="credito "/> Crédito 
+ 		<input type="radio" name="pagamento" value="boleto"/> Boleto
+ 		<input type="radio" name="pagamento" value="debito"/> Débito 
+      <p>
+        <input type="submit" value="Enviar">
+   	</form>
+   <body>
+<html>
